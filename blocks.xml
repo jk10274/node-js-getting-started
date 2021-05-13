@@ -1,10 +1,31 @@
 <xml xmlns="https://developers.google.com/blockly/xml">
-  <block type="s4d_login" id=")O7+PL3eS1Br}h;?X9N$" x="288" y="163">
+  <block type="s4d_login" id=")O7+PL3eS1Br}h;?X9N$" x="228" y="-51">
     <value name="TOKEN">
       <block type="text" id="a7JxIIyK[Yr~TPL^-{W:">
         <field name="TEXT">ODM2ODkwMjc0NzU0OTg1OTk1.YIkkzg.ARNdtLwxu4BMO9qE5pqEN1siX6g</field>
       </block>
     </value>
+  </block>
+  <block type="s4d_on_message" id="}*Q0oSj!R`@6Kl46f^Zn" x="-121" y="48">
+    <statement name="STATEMENTS">
+      <block type="s4d_send_channel" id="O#9JZ$!7-gyJeYR29vGJ">
+        <value name="CONTENT">
+          <block type="text" id="~oxk2*.N9!t,BL/4!v2c">
+            <field name="TEXT">Okay cool</field>
+          </block>
+        </value>
+        <value name="CHANNEL">
+          <block type="s4d_get_channel" id=":zvxgq5db3_2MxTM9pj4">
+            <field name="SEARCH_TYPE">ID</field>
+            <value name="VALUE">
+              <block type="text" id="}/zKJpufDo8rpV4s;Vb`">
+                <field name="TEXT">772822742286336004</field>
+              </block>
+            </value>
+          </block>
+        </value>
+      </block>
+    </statement>
   </block>
   <block type="s4d_on_message" id="Qx+aIDM=_,mj^tl$vGmW" x="288" y="238">
     <statement name="STATEMENTS">
@@ -17,7 +38,7 @@
             </value>
             <value name="B">
               <block type="text" id=";[??XKp36YJf2U}j2_}e">
-                <field name="TEXT">!ping</field>
+                <field name="TEXT">!schule</field>
               </block>
             </value>
           </block>
@@ -26,7 +47,7 @@
           <block type="s4d_reply" id="wgo^7yFoMz,K{AaMl6L)">
             <value name="CONTENT">
               <block type="text" id="N-4C!JnJCe,s$75i%8Ce">
-                <field name="TEXT">pong!</field>
+                <field name="TEXT">gar kein Bock</field>
               </block>
             </value>
           </block>

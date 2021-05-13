@@ -40,8 +40,13 @@
                 s4d.client.login('ODM2ODkwMjc0NzU0OTg1OTk1.YIkkzg.ARNdtLwxu4BMO9qE5pqEN1siX6g').catch((e) => { s4d.tokenInvalid = true; s4d.tokenError = e; });
 
 s4d.client.on('message', async (s4dmessage) => {
-  if ((s4dmessage.content) == '!ping') {
-    s4dmessage.channel.send(String('pong!'));
+  s4d.client.channels.cache.get('772822742286336004').send(String('Okay cool'));
+
+});
+
+s4d.client.on('message', async (s4dmessage) => {
+  if ((s4dmessage.content) == '!schule') {
+    s4dmessage.channel.send(String('gar kein Bock'));
   }
 
 });
